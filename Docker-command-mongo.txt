@@ -1,0 +1,1 @@
+docker run -p 27017:27017 -d --name webflux -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=password mongo
